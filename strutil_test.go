@@ -18,9 +18,6 @@ func TestToUpperFirst(t *testing.T) {
 	}{
 		{
 			name: "empty string",
-		},
-		{
-			name:   "first letter is a digit",
 			s:      "123 let's go",
 			expStr: "123 let's go",
 		},
